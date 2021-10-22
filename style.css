@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0px;
+    margin-right: 0%;
+    margin-left:0%; 
+    padding: 0%;
+    border: 0%;
+}
+
+
+.container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+
+#navigation{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.box {
+    color: white;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    padding: 15px;
+    width: 100%; 
+}
+
+
+.box1 { background:
+     darkblue; 
+     padding-top: 0%;
+     padding-bottom: 0%;
+}
+
+
+.box2 { 
+    /* background: purple; */
+     padding-top: 0%;
+     padding-bottom: 0%;
+     padding-left: 0%;
+     padding-right: 0%;
+}
+
+
+.box3 { 
+    background: greenyellow; 
+     padding-top: auto;
+     padding-bottom: auto;
+}
+
+
+.box4 { 
+    background: lightblue; 
+     padding-top: auto;
+     padding-bottom: auto;
+}
+
+
+.box5 { 
+    background: yellow; 
+}
+
+
+
+.box6 { 
+    background: #2ed573; 
+}
+    
+
+
+.box7 { 
+    background: greenyellow; 
+}
+
+
+
+.box8 { 
+    background: lightblue; 
+}
+
+
+/* main content for page  */
+.box9 { 
+    background: transparent; 
+    padding-left: 20%;
+    padding-right: 20%;    
+}
+
+
+.box10 { 
+    background: #18dcff; 
+}
+
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+.videos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vh;
+    height: 50vh;
+}
+
+
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vh;
+    height: 50vh;
+}
+
+
+/* unvisited link */
+a:link {
+    color: green;
+  }
+  
+  /* visited link */
+a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+a:hover {
+    color: red;
+  }
+  
+  /* selected link */
+a:active {
+    color: yellow;
+  }
+
+
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+h3{
+    text-align: center;
+    text-decoration: underline;
+}
+
+pr{
+    text-align:left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    color: rgb(0, 0, 0);
+    background-color: white;
+
+}
+
+
+.bighead{
+    color: darkblue;
+}
